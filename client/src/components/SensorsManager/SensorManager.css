@@ -1,0 +1,35 @@
+.sensor-manager {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .sensor-manager h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .sensor-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+  }
+  
+  .sensor-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .error-message {
+    color: red;
+    text-align: center;
+  }
+  

@@ -1,0 +1,34 @@
+.malfunction-report {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.malfunction-report h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.malfunction-item {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.malfunction-item h3 {
+  margin: 0 0 5px;
+  color: #666;
+}
+
+.malfunction-item p {
+  margin: 0;
+  color: #999;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+}
